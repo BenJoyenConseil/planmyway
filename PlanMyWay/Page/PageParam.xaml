@@ -1,0 +1,91 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="PlanMyWay.Page.PageParam"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" shell:SystemTray.IsVisible="True" d:DesignHeight="768" d:DesignWidth="480">
+    <phone:PhoneApplicationPage.Resources>
+
+        <DataTemplate x:Name="lpkItemTemplate">
+
+            <TextBlock Text="{Binding Carburant}" />
+
+        </DataTemplate>
+
+        <DataTemplate x:Name="lpkFullItemTemplate">
+
+            <TextBlock Text="{Binding Carburant}" />
+
+        </DataTemplate>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer>
+        <Grid x:Name="LayoutRoot" Background="Transparent" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+                <TextBlock x:Name="ApplicationTitle" Text="PlanMyWay" Style="{StaticResource PhoneTextNormalStyle}"/>
+                <TextBlock x:Name="PageTitle" Text="Paramètres" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
+
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0" VerticalAlignment="Stretch">
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock   Grid.Row="1" Margin="6,6,0,0" Name="tb_PrixCarbu" Text="Prix carburant :" VerticalAlignment="Top" FontSize="40" HorizontalAlignment="Left"  />
+                <TextBox Grid.Row="2" Name="txtB_PrixCarbu" FontSize="30" TextChanged="txtB_PrixCarbu_TextChanged" />
+                <TextBlock   Grid.Row="3" HorizontalAlignment="Left" Margin="6,0,0,0" Name="tb_TypeCarbu" Text="Type carburant :" VerticalAlignment="Top" FontSize="40" />
+                <TextBlock   Grid.Row="5" HorizontalAlignment="Left" Margin="6,0,0,0" Name="tb_NotificationActive" Text="Activer Notification :" VerticalAlignment="Top" FontSize="40" />
+                <TextBlock   Grid.Row="7" HorizontalAlignment="Left" Margin="12,0,0,0" Name="tb_LieuRef" Text="Lieu Reférence :" VerticalAlignment="Bottom" FontSize="40" />
+                <TextBox Grid.Row="8" Name="txtLieuRef" FontSize="30" TextChanged="txtLieuRef_TextChanged" />
+                <TextBlock   Grid.Row="9" HorizontalAlignment="Left" Margin="12,0,0,0" Name="tb_Utilisateur" Text="Utilisateur :" VerticalAlignment="Bottom" FontSize="40" />
+                <TextBox Grid.Row="10" Name="txtUtil" FontSize="30" TextChanged="txtUtil_TextChanged" />
+                <toolkit:ListPicker  Grid.Row="4" FullModeItemTemplate="{Binding lpkFullItemTemplate}" ItemTemplate="{Binding lpkItemTemplate}" x:Name="lpkTypeCarbu" Margin="12,12,12,6" FontSize="30" SelectionChanged="lpkTypeCarbu_SelectionChanged" />
+                <RadioButton Grid.Row="6" FontSize="30" Content="Oui" GroupName="ActiveNotif" Height="72" HorizontalAlignment="Left" Margin="12,0,0,0" Name="rb_yes" VerticalAlignment="Bottom" Width="206" Checked="rb_yes_Checked" />
+                <RadioButton Grid.Row="6" FontSize="30" Content="Non" GroupName="ActiveNotif" Height="72" HorizontalAlignment="Left" Margin="256,0,0,0" Name="rb_no" VerticalAlignment="Bottom" Width="177" Checked="rb_no_Checked" />
+                <Button Grid.Row="11" Name="btn_Submit" Content="Valider" Margin="3,3,8,0" Click="btn_Submit_Click" />
+            </Grid>
+
+        </Grid>
+
+
+        <!--Sample code showing usage of ApplicationBar-->
+        <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    </ScrollViewer>
+</phone:PhoneApplicationPage>
