@@ -1,0 +1,13 @@
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\PlanMyWay.Lib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\PlanMyWay.Lib.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\OpenXML.Silverlight.Spreadsheet.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\SharpZipLib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\OpenXML.Silverlight.Spreadsheet.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\obj\Debug\PlanMyWay.Lib.csprojResolveAssemblyReference.cache
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\obj\Debug\PlanMyWay.Lib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\PlanMyWay.Lib\obj\Debug\PlanMyWay.Lib.pdb

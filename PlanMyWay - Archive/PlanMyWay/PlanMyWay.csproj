@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlanMyWay</RootNamespace>
+    <AssemblyName>PlanMyWay</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>
+    </SilverlightVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>PlanMyWay_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>PlanMyWay.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ExpressionBlendVersion>5.0.30924.0</ExpressionBlendVersion>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>
+    </PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>
+    </PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>
+    </PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>
+    </PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coding4Fun.Phone.Controls.Toolkit">
+      <HintPath>..\..\..\..\..\..\Users\Zin\Downloads\Coding4Fun.Phone.Controls\Coding4Fun.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Audio">
+      <HintPath>..\..\..\..\..\..\Users\Zin\Downloads\Coding4Fun.Toolkit (Windows Phone 7)\Coding4Fun.Toolkit.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Controls, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Coding4Fun.Toolkit.Net">
+      <HintPath>..\..\..\..\..\..\Users\Zin\Downloads\Coding4Fun.Toolkit (Windows Phone 7)\Coding4Fun.Toolkit.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Storage">
+      <HintPath>..\..\..\..\..\..\Users\Zin\Downloads\Coding4Fun.Toolkit (Windows Phone 7)\Coding4Fun.Toolkit.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="FiftyNine.Ag.OpenXML.Common, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Live, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Live.Controls, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Maps, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\packages\WPtoolkit.4.2012.10.30\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\DateAndPositionEdit.xaml.cs">
+      <DependentUpon>DateAndPositionEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\DetailsAppointement.xaml.cs">
+      <DependentUpon>DetailsAppointement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MenuPrin.xaml.cs">
+      <DependentUpon>MenuPrin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PivotParam.xaml.cs">
+      <DependentUpon>PivotParam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PivotRoadTrip.xaml.cs">
+      <DependentUpon>PivotRoadTrip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\SelectDate.xaml.cs">
+      <DependentUpon>SelectDate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\SelectDateRoadTrip.xaml.cs">
+      <DependentUpon>SelectDateRoadTrip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\TestLstPick.xaml.cs">
+      <DependentUpon>TestLstPick.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlPMW\FlecheBasInfo.xaml.cs">
+      <DependentUpon>FlecheBasInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPMW\RectAnomalie.xaml.cs">
+      <DependentUpon>RectAnomalie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPMW\RecText.xaml.cs">
+      <DependentUpon>RecText.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\BindableBase.cs" />
+    <Compile Include="Util\DateAndPositions.cs" />
+    <Compile Include="Util\SpreadSheetRoadmapGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\DateAndPositionEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\DetailsAppointement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\MenuPrin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PivotParam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PivotRoadTrip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\SelectDate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\SelectDateRoadTrip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\TestLstPick.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPMW\FlecheBasInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPMW\RectAnomalie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPMW\RecText.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AppBar\appbar.check.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\AppBar\appbar.edit.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\AppBar\appbar.transport.rew.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\AppBar\appbar.feature.email.rest.png" />
+    <Content Include="Image\AppBar\appbar.feature.settings.rest.png" />
+    <Content Include="Image\AppBar\appbar.refresh.rest.png" />
+    <Content Include="Image\AppBar\appbar.save.rest.png" />
+    <Resource Include="Image\clipboardbig.png" />
+    <Content Include="Image\Export\Clipboard.png" />
+    <Resource Include="Image\Feuille de route\feuillederoute.png" />
+    <Resource Include="Image\Yes\appbar.check.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Util\Lib\Coding4Fun.Phone.Controls.dll" />
+    <Content Include="Util\Lib\Coding4Fun.Phone.Controls.Toolkit.dll" />
+    <Content Include="Util\Lib\Coding4Fun.Phone.Site.Controls.dll" />
+    <Content Include="Util\Lib\Coding4Fun.Toolkit.Audio.dll" />
+    <Content Include="Util\Lib\Coding4Fun.Toolkit.Controls.dll" />
+    <Content Include="Util\Lib\Coding4Fun.Toolkit.Net.dll" />
+    <Content Include="Util\Lib\Coding4Fun.Toolkit.Storage.dll" />
+    <Content Include="Util\Lib\FiftyNine.Ag.OpenXML.Common.dll" />
+    <Content Include="Util\Lib\Microsoft.Live.Controls.dll" />
+    <Content Include="Util\Lib\Microsoft.Live.dll" />
+    <Content Include="Util\Lib\Microsoft.Phone.Controls.Toolkit.dll" />
+    <Content Include="Util\Lib\SharpZipLib.dll" />
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <Resource Include="Image\EditaSheet\editasheet128.png" />
+    <Resource Include="Image\EditaSheet\editasheet256.png" />
+    <Resource Include="Image\EditaSheet\editasheet96.png" />
+    <Resource Include="Image\EditaSheet\Sans-titre-3.png" />
+    <Resource Include="Image\Feuille de route\feuillederoute128.png" />
+    <Resource Include="Image\Feuille de route\feuillederoute256.png" />
+    <Resource Include="Image\Feuille de route\feuillederoute48.png" />
+    <Resource Include="Image\Feuille de route\feuillederoute96.png" />
+    <Resource Include="Image\logo\logo159.png" />
+    <Resource Include="Image\logo\logo336.png" />
+    <Resource Include="Image\logo\logowide.png" />
+    <Resource Include="Image\Loupe\loupe128.png" />
+    <Resource Include="Image\Loupe\loupe256.png" />
+    <Resource Include="Image\Loupe\loupe48.png" />
+    <Resource Include="Image\Loupe\loupe96.png" />
+    <Resource Include="Image\no\no128.png" />
+    <Resource Include="Image\no\no256.png" />
+    <Resource Include="Image\no\no48.png" />
+    <Resource Include="Image\no\no96.png" />
+    <Resource Include="Image\Paramêtres\param128.png" />
+    <Resource Include="Image\Paramêtres\param256.png" />
+    <Resource Include="Image\Paramêtres\param48.png" />
+    <Resource Include="Image\Paramêtres\param96.png" />
+    <Resource Include="Image\trombonne\trombonne128.png" />
+    <Resource Include="Image\trombonne\trombonne256.png" />
+    <Resource Include="Image\trombonne\trombonne48.png" />
+    <Resource Include="Image\trombonne\trombonne96.png" />
+    <Resource Include="Image\Yes\yes128.png" />
+    <Resource Include="Image\Yes\yes256.png" />
+    <Resource Include="Image\Yes\yes48.png" />
+    <Resource Include="Image\Yes\yes96.png" />
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="README_FIRST.txt" />
+    <Content Include="SplashScreenImage.jpg" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Converter\" />
+    <Folder Include="Util\Control\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\OpenXML.Silverlight.Spreadsheet.csproj">
+      <Project>{02AB2275-D1E5-4D71-8C93-8592F9718184}</Project>
+      <Name>OpenXML.Silverlight.Spreadsheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlanMyWay.Lib\PlanMyWay.Lib\PlanMyWay.Lib.csproj">
+      <Project>{B2C15A43-54D7-4610-895E-22BD1A20DA31}</Project>
+      <Name>PlanMyWay.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

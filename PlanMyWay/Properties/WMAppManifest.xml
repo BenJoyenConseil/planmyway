@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{3fcd2303-8c8c-407e-b082-8e6936afac80}" Title="PlanMyWay" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PlanMyWay author" Description="PlanMyWay est une application faite pour vous simplifier la vie, vous qui utilisez votre véhicule&#xD;&#xA;pour vos rendez vous professionnels.&#xD;&#xA;&#xD;&#xA;A partir de votre calendrier, visualisez votre itinéraire pour la journée, suivez votre consommation&#xD;&#xA;énergétique" Publisher="PlanMyWay" BitsPerPixel="16">
+    <IconPath IsRelative="true" IsResource="false">Image\logo\logo336.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_APPOINTMENTS" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_LOCATION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="Page\MenuPrin.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="PlanMyWayToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Image\logo\logo336.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>PMW</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>

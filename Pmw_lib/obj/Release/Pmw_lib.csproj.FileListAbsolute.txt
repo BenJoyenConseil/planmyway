@@ -1,0 +1,4 @@
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\Pmw_lib\Bin\Release\Pmw_lib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\Pmw_lib\Bin\Release\Pmw_lib.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\Pmw_lib\obj\Release\Pmw_lib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\Pmw_lib\obj\Release\Pmw_lib.pdb

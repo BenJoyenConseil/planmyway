@@ -1,0 +1,140 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="PlanMyWay.Page.PivotParam"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+            <shell:ApplicationBarIconButton IconUri="/Image/AppBar/appbar.save.rest.png" Text="Enregistrer" Click="ApplicationBarIconButton_Click_1"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot Name="pivot1" Title="Compte" SelectionChanged="pivot1_SelectionChanged">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="Paramètres"  >
+                <StackPanel Name="pubPane">
+                    <Grid Margin="20">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Name="tb_Depart" Text="Adresse de départ" TextAlignment="Center" />
+                        <TextBox Grid.Row="1" VerticalAlignment="Center" Grid.Column="0" Name="tbx_aadrDepart">
+                            <TextBox.InputScope>
+                                <InputScope>
+                                    <InputScopeName NameValue="Maps"/>
+                                </InputScope>
+                            </TextBox.InputScope>
+                        </TextBox>
+                        <Button Grid.Row="1" Grid.Column="1" Height="70" Name="button1" Width="78" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="button1_Click">
+                            <Button.Content>
+                                <StackPanel>
+                                    <Image Source="/PlanMyWay;component/Image/Loupe/loupe96.png" Height="39" Width="37" ImageFailed="Image_ImageFailed" />
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+                        <TextBlock Grid.Row="2" Name="tb_arriver" Text="Adresse d'arrivée" TextAlignment="Center" />
+                        <TextBox Height="75" Grid.Row="3" Name="tbx_adrArriver">
+                            <TextBox.InputScope>
+                                <InputScope>
+                                    <InputScopeName NameValue="Maps"/>
+                                </InputScope>
+                            </TextBox.InputScope>
+                        </TextBox>
+                        <Button  Grid.Row="3" Grid.Column="1" Height="70"  Name="button2" Width="78" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="button2_Click">
+                            <Button.Content>
+                                <StackPanel>
+                                    <Image Source="/PlanMyWay;component/Image/Loupe/loupe96.png" Height="39" Width="37" />
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+
+                        <TextBlock Margin="11,0" Grid.Row="4"  HorizontalAlignment="Stretch" Name="tb_ConsMoyen" Text="Consomation moyenne :" VerticalAlignment="Top" FontSize="20" />
+                        <TextBox InputScope="Number" Grid.Row="5" Name="tbx_ConsoMoyen" HorizontalAlignment="Left" Width="169" TextChanged="tbx_ConsoMoyen_TextChanged" />
+                        <TextBlock Grid.Row="5" Grid.ColumnSpan="2" Height="37" HorizontalAlignment="Left" Margin="217,18,0,0" Name="textBlock1" Text="L/100 Km" VerticalAlignment="Top" FontSize="25" />
+                        <TextBlock Margin="11,0" Grid.Row="6"  HorizontalAlignment="Stretch" Name="tb_prixCarbu" Text="Prix du carburant" VerticalAlignment="Top" FontSize="20" />
+                        <TextBox InputScope="Number" Grid.Row="7" Name="tbx_prixCarbu" HorizontalAlignment="Left" Width="172" TextChanged="tbx_prixCarbu_TextChanged"></TextBox>
+                        <TextBlock Grid.Row="7" Height="37" HorizontalAlignment="Left" Margin="217,18,0,0" Name="textBlock2" Text="€/L" VerticalAlignment="Top" FontSize="25" />
+
+                    </Grid>
+                </StackPanel>
+            </controls:PivotItem>
+            <controls:PivotItem Header="Aide">
+                <ScrollViewer>
+                    <RichTextBox FontSize="24" TextAlignment="Justify" HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Paragraph Foreground="{StaticResource PhoneAccentBrush}" FontFamily="Segoe WP Light" FontStyle="Italic">
+                            Adresse de référence (départ, arrivée) :
+                        </Paragraph>
+                        <Paragraph>
+                            L'adresse de référence représente le lieu d'où vous voulez commencer vos journées.
+                            <LineBreak/>
+                            <LineBreak/>
+                            Afin d'assurer la reconnaissance de l'adresse souhaitée, vérifiez que :
+                            <LineBreak/>
+                            -	L'adresse est reconnue par le service Bing Map (application "Cartes").
+                            <LineBreak/>
+                            -	Celle-ci soit sous la forme suivante : Numero rue Nom de la rue, Ville, Pays.
+                            <LineBreak/>
+                            Les numéros Bis peuvent gêner la détection de l'adresse recherchée.
+                        </Paragraph>
+                        <Paragraph/>
+                        <Paragraph>
+                            <Bold Foreground="{StaticResource PhoneAccentBrush}" FontFamily="Segoe WP Light" FontStyle="Italic">
+                                Consommation moyenne :
+                            </Bold>
+                        </Paragraph>
+                        <Paragraph>
+                            Il est important  de remplir ce champ afin que nous puissions vous transmettre vos feuilles de frais directement par mail.
+                        </Paragraph>
+                        <Paragraph/>
+                        <Paragraph>
+                            <Bold Foreground="{StaticResource PhoneAccentBrush}" FontFamily="Segoe WP Light" FontStyle="Italic">
+                                Prix du carburant :
+                            </Bold>
+                        </Paragraph>
+                        <Paragraph>
+                            Le prix du carburant fluctuant souvent, nous vous laissons le soin d'indiquer la valeur au litre de celui  que vous utilisez.
+                        </Paragraph>
+                        <Paragraph/>
+                    </RichTextBox>
+                </ScrollViewer>
+            </controls:PivotItem>
+        </controls:Pivot>
+
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

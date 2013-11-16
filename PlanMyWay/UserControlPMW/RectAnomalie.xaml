@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="PlanMyWay.UserControlPMW.RectAnomalie"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="50" d:DesignWidth="400" Loaded="UserControl_Loaded">
+    
+    <Grid x:Name="LayoutRoot" Background="Red" MouseLeftButtonDown="LayoutRoot_MouseLeftButtonDown" Height="50" Width="400">
+        <Polygon x:Name="maFlecheBas" Points="36,0 40, 4 44,0" Stroke="White" StrokeThickness="4" Width="80" Fill="Yellow" Height="7"  HorizontalAlignment="Center" Canvas.Top="51" Canvas.Left="199" Margin="349,5,-29,38" />
+        <Polygon x:Name="maFlecheHaut" Points="36,4 40, 0 44,4" Stroke="White" StrokeThickness="4" Width="80" Fill="Yellow" Height="7"  HorizontalAlignment="Center" Canvas.Top="51" Canvas.Left="199" Margin="349,141,-29,2" />
+        <TextBlock Height="50" HorizontalAlignment="Left" Margin="68,0,0,0" Name="tb_Rdv" Text="TextBlock" VerticalAlignment="Top" Width="282" FontSize="30" />
+        <TextBlock Height="50" HorizontalAlignment="Left" Margin="68,50,0,0" Name="tb_Distance_Adr" Text="tb_Distance_Adr" VerticalAlignment="Top" FontSize="30" />
+        <TextBlock Height="50" HorizontalAlignment="Left" Margin="68,100,0,0" Name="tb_TpsPrevu" Text="TextBlock" VerticalAlignment="Top" Width="287" FontSize="30" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,92 @@
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.csprojResolveAssemblyReference.cache
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\App.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\MainPage.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\DetailsAppointement.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\MenuPrin.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\PivotParam.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\PivotRoadTrip.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\SelectDate.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\SelectDateRoadTrip.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\TestLstPick.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\UserControlPMW\FlecheBasInfo.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\UserControlPMW\RectAnomalie.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\UserControlPMW\RecText.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.g.resources
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\ApplicationIcon.png
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Background.png
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\AppManifest.xaml
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.xap
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Live.Controls.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Live.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\OpenXML.Silverlight.Spreadsheet.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.Lib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\SharpZipLib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\OpenXML.Silverlight.Spreadsheet.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.Lib.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\XapCacheFile.xml
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\Page1.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Phone.Controls.Toolkit.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Image\AppBar\appbar.edit.rest.png
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Image\AppBar\appbar.transport.rew.rest.png
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\obj\Debug\Page\DateAndPositionEdit.g.cs
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay\Bin\Debug\Assets\AppBar\appbar.check.rest.png
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Assets\AppBar\appbar.check.rest.png
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Image\AppBar\appbar.edit.rest.png
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Image\AppBar\appbar.transport.rew.rest.png
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\ApplicationIcon.png
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Background.png
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.pdb
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\AppManifest.xaml
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.xap
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Phone.Controls.Toolkit.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Live.Controls.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Live.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\OpenXML.Silverlight.Spreadsheet.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.Lib.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\SharpZipLib.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\OpenXML.Silverlight.Spreadsheet.pdb
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\PlanMyWay.Lib.pdb
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.csprojResolveAssemblyReference.cache
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\App.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\MainPage.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\DateAndPositionEdit.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\DetailsAppointement.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\MenuPrin.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\Page1.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\PivotParam.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\PivotRoadTrip.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\SelectDate.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\SelectDateRoadTrip.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\Page\TestLstPick.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\UserControlPMW\FlecheBasInfo.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\UserControlPMW\RectAnomalie.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\UserControlPMW\RecText.g.cs
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.g.resources
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.dll
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\PlanMyWay.pdb
+C:\Users\SuperBen\Desktop\PlanMyWay\PlanMyWay\obj\Debug\XapCacheFile.xml

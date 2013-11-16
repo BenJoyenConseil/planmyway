@@ -1,0 +1,7 @@
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\Bin\Debug\OpenXML.Silverlight.Spreadsheet.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\Bin\Debug\OpenXML.Silverlight.Spreadsheet.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\Bin\Debug\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\Bin\Debug\SharpZipLib.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\obj\Debug\OpenXML.Silverlight.Spreadsheet.dll
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\obj\Debug\OpenXML.Silverlight.Spreadsheet.pdb
+C:\Users\ben\Documents\Visual Studio 2012\Projects\PlanMyWay\PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\obj\Debug\OpenXML.Silverlight.Spreadsheet.csprojResolveAssemblyReference.cache

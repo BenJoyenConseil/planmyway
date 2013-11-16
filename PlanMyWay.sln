@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanMyWay", "PlanMyWay\PlanMyWay.csproj", "{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanMyWay.Lib", "PlanMyWay.Lib\PlanMyWay.Lib\PlanMyWay.Lib.csproj", "{B2C15A43-54D7-4610-895E-22BD1A20DA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXML.Silverlight.Spreadsheet", "PlanMyWay.Lib\OpenXML.Silverlight.Spreadsheet\OpenXML.Silverlight.Spreadsheet.csproj", "{02AB2275-D1E5-4D71-8C93-8592F9718184}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://win-sbeprjiju6r:8080/tfs/planmyway
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PlanMyWay\\PlanMyWay.csproj
+		SccProjectName1 = PlanMyWay
+		SccLocalPath1 = PlanMyWay
+		SccProjectUniqueName2 = PlanMyWay.Lib\\PlanMyWay.Lib\\PlanMyWay.Lib.csproj
+		SccProjectName2 = PlanMyWay.Lib/PlanMyWay.Lib
+		SccLocalPath2 = PlanMyWay.Lib\\PlanMyWay.Lib
+		SccProjectUniqueName3 = PlanMyWay.Lib\\OpenXML.Silverlight.Spreadsheet\\OpenXML.Silverlight.Spreadsheet.csproj
+		SccProjectName3 = PlanMyWay.Lib/OpenXML.Silverlight.Spreadsheet
+		SccLocalPath3 = PlanMyWay.Lib\\OpenXML.Silverlight.Spreadsheet
+		SccProjectUniqueName4 = Pmw_lib\\Pmw_lib.csproj
+		SccProjectName4 = Pmw_lib
+		SccLocalPath4 = Pmw_lib
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35738C0-5FF8-4B3A-A7B1-F9B45A6ADCB7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B2C15A43-54D7-4610-895E-22BD1A20DA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C15A43-54D7-4610-895E-22BD1A20DA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C15A43-54D7-4610-895E-22BD1A20DA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C15A43-54D7-4610-895E-22BD1A20DA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AB2275-D1E5-4D71-8C93-8592F9718184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AB2275-D1E5-4D71-8C93-8592F9718184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AB2275-D1E5-4D71-8C93-8592F9718184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AB2275-D1E5-4D71-8C93-8592F9718184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
